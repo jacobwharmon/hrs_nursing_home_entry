@@ -10,11 +10,13 @@ def variables_dict_builder() -> dict:
                         'hhidpn': 'HHold ID + Person Number',
                         'byear': 'Birth Year', # r_byear for individual, s_byear for spouse
                         'bmonth': 'Birth Month',
+                        'agey_e': 'Age (years) and the end of wave interview',
                         'dyear': 'Death Year',
                         'dmonth': 'Death Month',
                         'gender':'',
                         'racem':'Race - Masked',
                         'hispan':'',
+                        'cohbyr':'Cohort based on birth year', #8 levels
                         'mstat':'Marital Status', # 8 levels
                         'relig':'Religion', # 5 levels
                         'vetrn':'Veteran Status', # Binary
